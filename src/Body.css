@@ -1,0 +1,31 @@
+.body {
+    flex: 1;
+    height: 100%;
+    width: 89%;
+}
+.body__stream {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    height: 320px;
+}
+.body__streamInfo {
+    width: 200px;
+    background-color: white;
+}
+.body__channels {
+    margin: 20px;
+}
+.body__channel {
+    display: flex;
+    margin-top: 10px;
+}
+.body__verticalLine {
+    border-top: 1px solid lightgray;
+}
+.body__categories {
+    margin: 20px;
+}
+.body__category {
+    display: flex;
+}

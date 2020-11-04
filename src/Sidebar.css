@@ -1,0 +1,32 @@
+.sidebar {
+    width: 11%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    position: sticky;
+    top: 0;
+    height: 94vh;
+}
+.sidebar > h5 {
+    margin-bottom: 10px;
+}
+.sidebar__topShowMore {
+    color: blueviolet;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.sidebar__top {
+    flex: 1;
+}
+.sidebar__bottomContainer {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+.sidebar__bottomContainer > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 4px;
+}

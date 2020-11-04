@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    height: 6vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    background-color: white;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.header__left > h2 {
+    margin: 0 10px;
+}
+.header__left > i {
+    margin-left:  15px;
+}
+.header__left > img {
+    object-fit: contain;
+    height: 30px;
+    margin-left: 20px;
+}
+.header__verticalLine {
+    border-left: 1px solid lightgray;
+    height: 2rem;
+}
+.header__center {
+    display: flex;
+    overflow: hidden;
+    width: 23%;
+}
+.header__center > input {
+    padding: 10px 10px;
+    background-color: #E8E8E8;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    border: none;
+    flex: 1;
+    font-size: large;
+}
+.header__centerLogoContainer {
+    background-color: #F8F8F8;
+    padding: 0 10px;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.header__right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__rightContainer > i{
+    margin: 10px
+}
+.header__right > div {
+    margin: 7px;
+    cursor: pointer;
+}
+.header__rightBits {
+    display: flex;
+    height: 2rem;
+    padding: 0 5px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    align-items: center;
+}
+.header__center > input:hover {
+    border: 1px solid lightgray;
+}

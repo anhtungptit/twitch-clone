@@ -1,0 +1,21 @@
+.channel {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.channel__details {
+    display: flex;
+    margin-left: 10px;
+}
+.channel__stat {
+    margin-left: 10px;
+    font-weight: 500;
+}
+.channel__name {
+    margin-right: 10px;
+}
+.channel__name > p {
+    font-weight: lighter;
+}

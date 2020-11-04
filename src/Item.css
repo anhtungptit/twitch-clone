@@ -1,0 +1,14 @@
+
+.item__detailsText > h4 {
+    overflow: hidden;
+}
+.item__details {
+    display: flex;
+}
+.item__detailsText {
+    margin-left: 10px;
+}
+.item__detailsText > p {
+    font-size: small;
+    color: gray
+}
